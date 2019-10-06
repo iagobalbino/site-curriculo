@@ -41,10 +41,24 @@ h3{
 	text-align: center;
 }
 
-.experiencia {
+/*.experiencia {
 	background-color: #F2EFE0;
 	width: 100%;
 	margin: auto;
+}*/
+
+.experiencia-container {
+	background: #F2EFE0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.experiencia-box {
+	width: auto;
+	height: auto;
+	/*background: #fff;*/
 }
 
 #foto {
