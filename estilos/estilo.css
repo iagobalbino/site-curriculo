@@ -29,7 +29,7 @@ ul li {
 	margin-left: 30px;
 }
 
-#capa {
+.capa {
 	background-color: #D3D3D3;
 	height: 90vh;
 	position: relative;
@@ -56,11 +56,27 @@ ul li {
 	text-align: center;
 }
 
-#resumo {
+.container-resumo {
 	height: 100vh;
 }
 
-#curriculo {
+.resumo {
+	position: static;
+	text-align: left;
+	height: 100vh;
+	width: 750px;
+	background-color: blue;
+}
+
+figure {
+	position: relative;
+	float: right;
+	/* margin: 500px; */
+}
+
+.container-curriculo {
+	position: relative;
 	background: #D3D3D3;
 	height: 100vh;
+	opacity: 10%;
 }
