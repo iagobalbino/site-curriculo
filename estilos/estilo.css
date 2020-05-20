@@ -30,7 +30,7 @@ ul li {
 }
 
 .capa {
-	background-color: #D3D3D3;
+	background-color: #484B4D;
 	height: 90vh;
 	position: relative;
 }
@@ -58,7 +58,7 @@ ul li {
 
 .container-resumo {
 	height: 100vh;
-	background-color: gray;
+	background-color: #D9E0E6;
 }
 
 .resumo {
@@ -66,15 +66,16 @@ ul li {
 	text-align: left;
 	height: 100vh;
 	width: 50%;
-	background-color: blue;
-	opacity: 50%;
+	background-color: #A9AEB3;
 }
 
-.container-resumo figure{
-	margin-left: 150%;
+.imagem-perfil {
+	position: relative;
+
 }
 
 .container-curriculo {
-	background: #D3D3D3;
+	background: #D9E0E6;
 	height: 100vh;
+	opacity: 10%;
 }
