@@ -61,7 +61,6 @@ a {
     text-align: center;
 }
 
-
 .item h2 {
 	font-family: "Segoe Script";
     font-size: 60px;
@@ -70,4 +69,29 @@ a {
 .item h1 {
     font-family: "Gadugi";
     font-size: 110px;
+}
+
+.container-resumo {
+    display: flex;
+    height: 100vh;
+    /* border: 1px solid #000000; */
+    align-items: center;
+}
+
+.resumo {
+    margin-top: 50px;
+    height: 100%;
+    width: 50%;
+    font-size: 20px;
+    /* border: 1px solid #cccccc; */
+    margin-left: 50px;
+}
+
+.imagem-perfil {
+    margin-left: 150px;
+}
+
+.container-curriculo {
+    height: 100vh;
+    background-color: #D9E0E6;
 }
