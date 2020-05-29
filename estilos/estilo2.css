@@ -92,6 +92,13 @@ a {
 }
 
 .container-curriculo {
-    height: 100vh;
     background-color: #D9E0E6;
+}
+
+.footer-container {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
