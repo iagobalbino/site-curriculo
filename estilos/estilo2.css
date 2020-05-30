@@ -91,8 +91,24 @@ a {
     margin-left: 150px;
 }
 
+.midia-social {
+    display: flex;
+    justify-content: center;
+}
+
+.midia-social a {
+    background-color: #A9AEB3;
+    height: 40px;
+    margin-left: 20px;
+    width: 50px;
+}
+
 .container-curriculo {
     background-color: #D9E0E6;
+}
+
+.curriculo {
+    margin-left: 50px;
 }
 
 .footer-container {
