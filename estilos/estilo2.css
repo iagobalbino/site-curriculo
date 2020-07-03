@@ -74,6 +74,7 @@ a {
 .container-resumo {
     display: flex;
     height: 100vh;
+    justify-content: space-around;
     /* border: 1px solid #000000; */
     align-items: center;
 }
@@ -83,17 +84,15 @@ a {
     width: 50%;
     font-size: 20px;
     border: 1px solid #cccccc;
-    margin-left: 50px;
 }
 
-.imagem-perfil {
-    margin-left: 150px;
+.imagem-perfil img{
+    border-radius: 50%;
 }
 
 .midia-social {
-    display: flex;
-    justify-content: center;
-}
+    height: 20px;
+    width: 20px;
 
 .midia-social a {
     background-color: #A9AEB3;
@@ -111,6 +110,7 @@ a {
 }
 
 .footer-container {
+    background-color: #D9E0E6;
     display: flex;
     height: 10vh;
     justify-content: center;
