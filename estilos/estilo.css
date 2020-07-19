@@ -56,6 +56,7 @@ a {
 .container-titulo {
   height: 90vh;
   display: flex;
+  color: #fff;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -88,7 +89,7 @@ a {
   margin-left: 30px;
   width: 50%;
   font-size: 20px;
-  border: 1px solid #cccccc;
+  /* border: 1px solid #cccccc; */
 }
 
 .imagem-perfil img {
@@ -116,17 +117,9 @@ a {
   width: 30px;
 }
 
-.container-curriculo {
-  display: flex;
-  background-color: #d9e0e6;
-}
-
-#curriculo {
-  margin: 50px 0 20px 50px;
-}
-
 .footer-container {
   background-color: #484b4d;
+  color: #fff;
   display: flex;
   height: 10vh;
   justify-content: center;
