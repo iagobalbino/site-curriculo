@@ -83,18 +83,6 @@ a {
     margin: 50px 0 20px 50px;
     width: 50%;
     font-size: 20px;
-<<<<<<< HEAD
-    border: 1px solid #cccccc;
-}
-
-.imagem-perfil img{
-    border-radius: 50%;
-}
-
-.midia-social {
-    height: 20px;
-    width: 20px;
-=======
     /* border: 1px solid #cccccc; */
 }
 
@@ -109,7 +97,6 @@ a {
     display: flex;
     justify-content: center;
 }
->>>>>>> 9bda1672ab66d8f74bd4a5bc1f8df64fb70c3542
 
 /* .social a {
     background-color: #A9AEB3;
@@ -134,11 +121,7 @@ a {
 }
 
 .footer-container {
-<<<<<<< HEAD
-    background-color: #D9E0E6;
-=======
     background-color: #484B4D;
->>>>>>> 9bda1672ab66d8f74bd4a5bc1f8df64fb70c3542
     display: flex;
     height: 10vh;
     justify-content: center;
