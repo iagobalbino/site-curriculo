@@ -1,81 +1,24 @@
-* {
-	margin: 0;
-	padding: 0;
+/* Reset csss*/
+
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "Gadugi", "Helvetica", sans-serif;
 }
 
-body {
-	font-family: "Gadugi", "Helvetica", sans-serif;
+/* Fim do reste css*/
+
+.header,
+.footer-container {
+  width: 1400px;
+  height: 10vh;
+  background-color: #484b4d;
 }
 
-html, body {
-	width: 100%;
-	height: 100%;
-}
-
-header {
-	height: 10vh;
-	margin-left: 900px;
-}
-
-header a {
-	text-decoration: none;
-	font-weight: bold;
-	color: #000000;
-	font-size: 20px;
-}
-
-ul li {
-	display: inline;
-	margin-left: 30px;
-}
-
-.capa {
-	background-color: #484B4D;
-	height: 90vh;
-	position: relative;
-}
-
-
-.titulo {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.titulo h2 {
-	font-family: "Segoe Script";
-	font-size: 60px;
-}
-
-.titulo h1 {
-	font-size: 110px;
-}
-
-.titulo h1, h2 {
-	text-align: center;
-}
-
-.container-resumo {
-	height: 100vh;
-	background-color: #D9E0E6;
-}
-
-.resumo {
-	display: block;
-	text-align: left;
-	height: 100vh;
-	width: 50%;
-	background-color: #A9AEB3;
-}
-
-.imagem-perfil {
-	position: relative;
-
-}
-
-.container-curriculo {
-	background: #D9E0E6;
-	height: 100vh;
-	opacity: 10%;
+.sobre-mim-container {
+  height: 80vh;
 }
