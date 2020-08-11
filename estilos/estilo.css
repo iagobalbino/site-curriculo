@@ -1,4 +1,29 @@
 /* Reset csss*/
+<<<<<<< HEAD
+
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "Gadugi", "Helvetica", sans-serif;
+}
+
+/* Fim do reste css*/
+
+.header,
+.footer-container {
+  width: 1400px;
+  height: 10vh;
+  background-color: #484b4d;
+}
+
+.sobre-mim-container {
+  height: 80vh;
+}
+=======
 
 body,
 ul,
@@ -126,3 +151,4 @@ a {
   align-items: center;
   text-align: center;
 }
+>>>>>>> a5bbb064caac3dd21fb6f5c47e18461a7a4365ce
