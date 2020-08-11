@@ -1,4 +1,5 @@
 /* Reset csss*/
+<<<<<<< HEAD
 
 body,
 ul,
@@ -22,3 +23,132 @@ p {
 .sobre-mim-container {
   height: 80vh;
 }
+=======
+
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "Gadugi", "Helvetica", sans-serif;
+}
+
+/* Fim do reset css*/
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 5px;
+
+  height: 10vh;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 5px;
+}
+
+.menu li a {
+  display: block;
+  font-size: 16px;
+  padding: 15px;
+}
+
+.capa {
+  background-color: #484b4d;
+  height: 90vh;
+}
+
+.container-titulo {
+  height: 90vh;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  margin: -100px;
+  text-align: center;
+}
+
+.item h2 {
+  font-family: "Segoe Script";
+  font-size: 60px;
+}
+
+.item h1 {
+  font-family: "Gadugi";
+  font-size: 110px;
+}
+
+.container-resumo {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  /* border: 1px solid #000000; */
+  align-items: center;
+}
+
+#sobre {
+  margin-left: 30px;
+  width: 50%;
+  font-size: 20px;
+  /* border: 1px solid #cccccc; */
+}
+
+.imagem-perfil img {
+  border-radius: 50%;
+  margin-left: 200px;
+  height: 50%;
+  width: 50%;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+/* .social a {
+    background-color: #A9AEB3;
+    height: 40px;
+    margin-left: 20px;
+    width: 50px;
+} */
+
+.social img {
+  height: 30px;
+  margin-left: 20px;
+  width: 30px;
+}
+
+.footer-container {
+  background-color: #484b4d;
+  color: #fff;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+>>>>>>> a5bbb064caac3dd21fb6f5c47e18461a7a4365ce
