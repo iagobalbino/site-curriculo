@@ -41,13 +41,14 @@ p {
 
 .imagem-perfil {
   float: left;
-  width: 380px;
-  height: 380px;
+  width: 500px;
+  height: 80vh;
   background-color: blue;
 
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  flex-direction: column; */
+  flex-direction: column;
+  align-items: center;
 }
 
 .imagem-perfil img {
@@ -56,10 +57,15 @@ p {
 }
 
 .midias-sociais {
+  margin-top: 10px;
   height: 40px;
   width: 70px;
   background-color: brown;
   float: left;
+
+  display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .midias-sociais img {
