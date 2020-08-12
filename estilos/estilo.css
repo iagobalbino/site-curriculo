@@ -26,8 +26,9 @@ p {
 }
 
 .sobre-mim-container {
-  width: 1400px;
+  width: 1000px;
   height: 80vh;
+  margin: 0 auto;
   background-color: aqua;
 }
 
@@ -40,9 +41,13 @@ p {
 
 .imagem-perfil {
   float: left;
-  width: 400px;
-  height: 60vh;
+  width: 380px;
+  height: 380px;
   background-color: blue;
+
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
 }
 
 .imagem-perfil img {
@@ -51,8 +56,8 @@ p {
 }
 
 .midias-sociais {
-  height: 20vh;
-  width: 200px;
+  height: 40px;
+  width: 70px;
   background-color: brown;
   float: left;
 }
