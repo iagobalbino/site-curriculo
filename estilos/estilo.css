@@ -13,13 +13,34 @@ p {
 /* Fim do reste css*/
 
 .header {
-  width: 1400px;
+  width: 100%;
   height: 10vh;
   background-color: #484b4d;
+
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+nav {
+  margin-right: 50px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu a {
+  font-weight: bold;
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
 }
 
 .footer-container {
-  width: 1400px;
+  width: 100%;
   height: 10vh;
   background-color: #484b4d;
   clear: both;
