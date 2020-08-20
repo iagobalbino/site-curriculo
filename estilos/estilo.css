@@ -12,11 +12,16 @@ p {
 
 /* Fim do reste css*/
 
-.header {
+.header, .footer {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
   width: 100%;
   height: 10vh;
-  background-color: #484b4d;
+  background-color: #484b4d
+}
 
+.header {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -33,38 +38,44 @@ nav {
 }
 
 .menu a {
-  font-weight: bold;
   color: #fff;
   margin-left: 20px;
   text-decoration: none;
 }
 
 .footer-container {
-  width: 100%;
-  height: 10vh;
-  background-color: #484b4d;
+  text-align: center;
   clear: both;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+  padding-top: 1.5%;
 }
 
 .sobre-mim-container {
   width: 1000px;
   height: 80vh;
   margin: 0 auto;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .sobre-mim {
+  margin-top: 10%;
   width: 500px;
-  height: 80vh;
+  height: 50vh;
   float: left;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
 }
 
 .imagem-perfil {
+  margin-top: 10%;
   float: left;
   width: 500px;
-  height: 80vh;
-  background-color: blue;
+  height: 50vh;
+  /* background-color: blue; */
 
   display: flex;
   justify-content: center;
@@ -73,6 +84,7 @@ nav {
 }
 
 .imagem-perfil img {
+  border-radius: 50%;
   height: 350px;
   width: 350px;
 }
@@ -80,8 +92,8 @@ nav {
 .midias-sociais {
   margin-top: 10px;
   height: 40px;
-  width: 70px;
-  background-color: brown;
+  width: 100px;
+  /* background-color: brown; */
   float: left;
 
   display: flex;
@@ -90,6 +102,7 @@ nav {
 }
 
 .midias-sociais img {
+  margin-left: 10px;
   height: 32px;
   width: 32px;
 }
