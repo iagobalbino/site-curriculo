@@ -1,0 +1,108 @@
+/* Reset csss*/
+
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "Gadugi", "Helvetica", sans-serif;
+}
+
+/* Fim do reste css*/
+
+.header, .footer {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+  height: 10vh;
+  background-color: #484b4d
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+nav {
+  margin-right: 50px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.footer-container {
+  text-align: center;
+  clear: both;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+  padding-top: 1.5%;
+}
+
+.sobre-mim-container {
+  width: 1000px;
+  height: 80vh;
+  margin: 0 auto;
+  /* background-color: aqua; */
+}
+
+.sobre-mim {
+  margin-top: 10%;
+  width: 500px;
+  height: 50vh;
+  float: left;
+  /* background-color: chartreuse; */
+}
+
+.imagem-perfil {
+  margin-top: 10%;
+  float: left;
+  width: 500px;
+  height: 50vh;
+  /* background-color: blue; */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem-perfil img {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+}
+
+.midias-sociais {
+  margin-top: 10px;
+  height: 40px;
+  width: 100px;
+  /* background-color: brown; */
+  float: left;
+
+  display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.midias-sociais img {
+  margin-left: 10px;
+  height: 32px;
+  width: 32px;
+}
