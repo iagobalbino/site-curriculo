@@ -1,4 +1,4 @@
-/* Reset csss*/
+/* Reset css */
 
 body,
 ul,
@@ -10,6 +10,8 @@ p {
   font-family: "Gadugi", "Helvetica", sans-serif;
 }
 
+/* Header e Footer */
+
 .header, .footer {
   font-size: 16px;
   font-weight: bold;
@@ -19,28 +21,36 @@ p {
   background-color: #484b4d
 }
 
-.container {
+/* Header  */
+
+.container_header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   margin: 0 auto;
   padding: 0;
   position: relative;
 }
 
+.header a {
+  margin: 10px auto 10px 50px;
+}
+
 .header a img {
   width: 40px;
   height: 40px;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
 }
 
 .menu {
   text-align: right;
   margin-right: 50px;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
-.menu li {
+.menu li{
  display: inline;
- 
 }
 
 .menu a {
@@ -49,7 +59,9 @@ p {
   text-decoration: none;
 }
 
-.footer-container {
+/* Footer */
+
+.footer_container {
   text-align: center;
   clear: both;
 }
@@ -61,14 +73,16 @@ p {
   padding-top: 1.5%;
 }
 
-.sobre-mim-container {
+/* Sobre mim */
+
+.sobre_mim_container {
   width: 1000px;
   height: 80vh;
   margin: 0 auto;
   /* background-color: aqua; */
 }
 
-.sobre-mim {
+.sobre_mim {
   margin-top: 10%;
   width: 500px;
   height: 50vh;
@@ -76,7 +90,7 @@ p {
   /* background-color: chartreuse; */
 }
 
-.imagem-perfil {
+.imagem_perfil {
   margin-top: 10%;
   float: left;
   width: 500px;
@@ -89,13 +103,13 @@ p {
   align-items: center;
 }
 
-.imagem-perfil img {
+.imagem_perfil img {
   border-radius: 50%;
   height: 350px;
   width: 350px;
 }
 
-.midias-sociais {
+.midias_sociais {
   margin-top: 10px;
   height: 40px;
   width: 100px;
@@ -107,7 +121,7 @@ p {
 	align-items: center;
 }
 
-.midias-sociais img {
+.midias_sociais img {
   margin-left: 10px;
   height: 32px;
   width: 32px;
