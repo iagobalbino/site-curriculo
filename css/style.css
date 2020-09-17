@@ -135,14 +135,19 @@ p {
 }
 
 @media (max-width: 900px) {
+
+  .menu {
+    margin-right: 10px;
+  }
+
   .sobre_mim_container {
     flex-direction: column;
-    height: 800px;
+    height: 700px;
     width: 100%;
   }
 
   .sobre_mim {
-    height: 400px;
+    height: 300px;
     width: 300px;
     font-size: 14px;
   }
