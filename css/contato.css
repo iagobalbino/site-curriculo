@@ -3,10 +3,12 @@
 body,
 ul,
 li,
-p {
+p,
+a {
   margin: 0px;
   padding: 0px;
   list-style: none;
+  text-decoration: none;
   font-family: "Gadugi", "Helvetica", sans-serif;
 }
 
@@ -99,8 +101,21 @@ svg {
 /* Section */
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 80vh;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.midias_sociais img {
+  height: 50px;
+  width: 50px;
 }
 
 @media (max-width: 900px) {

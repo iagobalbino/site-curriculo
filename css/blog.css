@@ -3,10 +3,12 @@
 body,
 ul,
 li,
-p {
+p,
+a {
   margin: 0px;
   padding: 0px;
   list-style: none;
+  text-decoration: none;
   font-family: "Gadugi", "Helvetica", sans-serif;
 }
 
