@@ -1,14 +1,6 @@
 /* Reset css */
 
-body,
-ul,
-li,
-p,
-a {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-  text-decoration: none;
+body {
   font-family: "Gadugi", "Helvetica", sans-serif;
 }
 
