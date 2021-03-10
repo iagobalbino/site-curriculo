@@ -1,5 +1,3 @@
-/* Reset css */
-
 body {
   font-family: "Gadugi", "Helvetica", sans-serif;
 }
@@ -140,6 +138,25 @@ svg {
 }
 
 @media (max-width: 900px) {
+
+  .hero-page {
+    width: 100%;
+    height: 100%;
+    background: #0A0140;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hero-page h1 {
+    font-size: 18px;
+  }
+  
+  .hero-page p {
+    font-weight: bold;
+    font-size: 28px;
+  }
 
   .menu {
     margin-right: 10px;
