@@ -159,8 +159,16 @@ svg {
   }
 
   .button {
-    width: 30px;
-    height: 20px;
+    width: 130px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    position: relative;
+    left: 20px;
+    top: 200px;
   }
 
   .menu {
