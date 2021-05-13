@@ -147,6 +147,7 @@ svg {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-left: 20px;
   }
   
   .hero-page h1 {
@@ -156,6 +157,7 @@ svg {
   .hero-page p {
     font-weight: bold;
     font-size: 28px;
+    margin-top: 20px;
   }
 
   .button {
@@ -167,7 +169,6 @@ svg {
     color: #fff;
     border: 1px solid #fff;
     position: relative;
-    left: 20px;
     top: 200px;
   }
 
