@@ -59,6 +59,7 @@ body, html {
     flex-direction: row;
     justify-content: space-between;
     background: #0A0140;
+    margin-bottom: 160px;
   }
 
   .footer {
@@ -82,35 +83,48 @@ body, html {
   }
 
   .sobre_mim_container {
+    height: 100%;
     width: 100%;
+    text-align: center;
   }
 
   .sobre_mim_container div {
     margin: 0 auto;
   }
 
-  .sobre_mim {
+  .imagem_perfil {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  .midias_sociais {
+    text-align: center;
+  }
+  
+  .sobre_mim_texto {
     height: 300px;
     width: 300px;
     font-size: 14px;
   }
 
-  .sobre_mim h2 {
+  .sobre_mim_texto h2 {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
+    margin-bottom: 10px;
   }
 
-  .imagem_perfil {
-    width: 150px;
-    height: 150px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .midias_sociais {
-    text-align: center;
+  .button_portfolio {
+    width: 130px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    color: #000;
+    border: 1px solid #000;
   }
 
 }
