@@ -88,13 +88,10 @@ body, html {
     text-align: center;
   }
 
-  .sobre_mim_container div {
-    margin: 0 auto;
-  }
-
   .imagem_perfil {
     width: 150px;
     height: 150px;
+    border-radius: 50%;
     display: block;
     margin: 0 auto 20px;
   }
@@ -107,6 +104,7 @@ body, html {
     height: 300px;
     width: 300px;
     font-size: 14px;
+    margin: 20px auto;
   }
 
   .sobre_mim_texto h2 {
