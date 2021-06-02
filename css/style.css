@@ -158,13 +158,19 @@ body, html {
     margin: 0 20px 0 20px;
   }
 
-  .portfolio p {
-    margin: 0 20px 0 20px;
-  }
-
   .portfolio_card {
     width: 100%;
-    padding: 20px;
+    height: 160px;
+  }
+
+  .portfolio_card:nth-child(odd) a {
+    margin-right: 16px;
+    float: left;
+  }
+
+  .portfolio_card:nth-child(even) a {
+    margin-left: 16px;
+    float: right;
   }
 
   .portfolio_card h3 {
@@ -173,16 +179,7 @@ body, html {
   }
 
   .portfolio_card img {
-    height: 120px;
-    width: 120px;
-    float: left;
-    margin: 0 10px 10px 0;
+    height: 160px;
+    width: 160px;
   }
-
-  .mirror_fashion img {
-    height: 120px;
-    width: 120px;
-    float: right;
-  }
-
 }
