@@ -73,6 +73,10 @@ body, html {
     top: 0;
   }
 
+  .logo {
+    font-family: "Allan";
+  }
+
   .nav {
     display: inline-block;
   }
@@ -104,7 +108,7 @@ body, html {
   }
 
   .sobre_mim_container {
-    height: 100vh;
+    height: 75vh;
     width: 100%;
     text-align: center;
   }
@@ -119,6 +123,10 @@ body, html {
 
   .midias_sociais {
     text-align: center;
+  }
+
+  .midias_sociais a {
+    margin-left: 10px;
   }
   
   .sobre_mim_texto {
@@ -155,12 +163,17 @@ body, html {
   .portfolio h2 {
     font-size: 1.28rem;
     font-weight: bold;
-    margin: 0 20px 0 20px;
+    margin-left: 38px;
+  }
+
+  .portfolio_p {
+    margin-left: 38px;
   }
 
   .portfolio_card {
-    width: 100%;
+    width: 340px;
     height: 160px;
+    margin: 40px auto 50px ;
   }
 
   .portfolio_card:nth-child(odd) a {
