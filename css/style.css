@@ -17,7 +17,9 @@ body, html {
   /* border: 0.5px solid blue; */
 }
 
-@media (max-width: 900px) {
+/* Celular tela grande */
+@media (min-width: 900px) {
+/* @media (min-width: 64em) { */
 
   body {
     font-size: 14px;
@@ -58,8 +60,7 @@ body, html {
   }
 
   .header {
-    /* height: 40px; */
-    height: 4.46vh;
+    height: 40px;
     width: 100%;
     padding: 0 20px 0 20px;
     display: flex;
@@ -92,7 +93,7 @@ body, html {
   }
 
   .footer {
-    height: 13.39vh;
+    height: 120px;
     width: 100%;
     background: #0A0140;
     /* text-align: center; */
@@ -132,8 +133,6 @@ body, html {
   
   .sobre_mim_texto {
     height: 300px;
-    width: 300px;
-    font-size: 14px;
     margin: 20px auto;
   }
 
@@ -156,7 +155,7 @@ body, html {
   }
 
   .portfolio {
-    padding-top: 8.92vh;
+    padding-top: 80px;
     height: 86.61vh;
     width: 100%;
   }
