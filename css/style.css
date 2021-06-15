@@ -9,12 +9,6 @@ body {
 
 body, html {
   position: relative;
-  /* height: 100%; */
-}
-
-/* Linha guia */
-.linha_guia {
-  /* border: 0.5px solid blue; */
 }
 
 .hero-page {
@@ -25,12 +19,11 @@ body, html {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 200px;
+  padding-left: 10%;
 }
 
 .hero-page h1 {
-  font-size: 1.125rem;
-  text-transform: uppercase;
+  font-size: 1.14rem;
 }
 
 .hero-page p {
@@ -48,7 +41,7 @@ body, html {
   color: #fff;
   border: 1px solid #fff;
   position: relative;
-  top: 200px;
+  top: 20%;
 }
 
 .header {
@@ -106,37 +99,37 @@ body, html {
   text-align: center;
 }
 
-.perfil {
-  width: 50%;
-  float: right;
-  padding-right: 20%;
-}
-
 .imagem_perfil {
   width: 320px;
   height: 320px;
   border-radius: 50%;
+  margin: 0 auto 10px;
 }
 
 .midias_sociais {
-  margin-top: 20px;
   text-align: center;
 }
 
-.sobre_mim_texto {
-  height: 40%;
-  width: 50%;
-  padding: 2.5% 0 0 20%;
-  float: left;
-  text-align: left;
+.midias_sociais a {
+  /* margin-left: 10px; */
 }
 
-.sobre_mim_texto p {
-  height: 227px;
-  width: 400px;
+.perfil, .sobre_mim_texto {
+  height: 80%;
+  width: 50%;
+}
+
+.perfil {
+  float: right;
+}
+
+.sobre_mim_texto {
+  float: left;
+  padding: 0 20px;
 }
 
 .sobre_mim_texto h2 {
+  text-align: center;
   font-weight: bold;
   font-size: 1.28rem;
   text-transform: uppercase;
@@ -147,193 +140,69 @@ body, html {
   width: 130px;
   height: 40px;
   text-transform: uppercase;
-  float: left;
   font-weight: bold;
   background: none;
   color: #000;
   border: 1px solid #000;
 }
 
-/* Celular tela grande */
-@media (max-width: 768px) {
-
-  body {
-    font-size: 14px;
-  }
-
-  .hero-page {
-    width: 100%;
-    /* height: 100%; */
-    height: 100vh;
-    background: #0A0140;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 20px;
-  }
-  
-  .hero-page h1 {
-    font-size: 1.14rem;
-  }
-  
-  .hero-page p {
-    font-weight: bold;
-    font-size: 1.71rem;
-    margin-top: 20px;
-  }
-
-  .button {
-    width: 130px;
-    height: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    background: none;
-    color: #fff;
-    border: 1px solid #fff;
-    position: relative;
-    top: 200px;
-  }
-
-  .header {
-    height: 40px;
-    width: 100%;
-    padding: 0 20px 0 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background: #0A0140;
-    margin-bottom: 160px;
-
-    position: sticky;
-    top: 0;
-  }
-
-  .logo {
-    font-family: "Allan";
-  }
-
-  .nav {
-    display: inline-block;
-  }
-
-  .menu li {
-    display: inline-block;
-    padding-left: 10px;
-  }
-
-  .menu li a, .logo{
-    color: #fff;
-    font-weight: bold;
-  }
-
-  .footer {
-    height: 120px;
-    width: 100%;
-    background: #0A0140;
-    /* text-align: center; */
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-
-  .midias_sociais_footer svg {
-    margin: 8px 0 8px 0;
-  }
-
-  .sobre_mim_container {
-    height: 75vh;
-    width: 100%;
-    text-align: center;
-  }
-
-  .imagem_perfil {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    /* display: block; */
-    margin: 0 auto 20px;
-  }
-
-  .midias_sociais {
-    text-align: center;
-  }
-
-  .midias_sociais a {
-    /* margin-left: 10px; */
-  }
-  
-  .sobre_mim_texto {
-    height: 300px;
-    margin: 20px auto;
-    padding: 0 20px;
-  }
-
-  .sobre_mim_texto h2 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.28rem;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-
-  .button_portfolio {
-    width: 130px;
-    height: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    background: none;
-    color: #000;
-    border: 1px solid #000;
-  }
-
-  .portfolio {
-    padding-top: 80px;
-    height: 86.61vh;
-    width: 100%;
-  }
-
-  .portfolio h2 {
-    font-size: 1.28rem;
-    font-weight: bold;
-    margin-left: 38px;
-  }
-
-  .portfolio_p {
-    margin-left: 38px;
-  }
-
-  .portfolio_card {
-    width: 340px;
-    height: 160px;
-    margin: 40px auto 50px ;
-  }
-
-  .portfolio_card:nth-child(odd) a {
-    margin-right: 16px;
-    float: left;
-  }
-
-  .portfolio_card:nth-child(even) a {
-    margin-left: 16px;
-    float: right;
-  }
-
-  .portfolio_card h3 {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  .portfolio_card img {
-    height: 160px;
-    width: 160px;
-  }
+.portfolio {
+  padding-top: 80px;
+  height: 86.61vh;
+  width: 100%;
 }
+
+.portfolio h2 {
+  font-size: 1.28rem;
+  font-weight: bold;
+  margin-left: 38px;
+}
+
+.portfolio_p {
+  margin-left: 38px;
+}
+
+.portfolio_card {
+  width: 340px;
+  height: 160px;
+  margin: 40px auto 50px ;
+}
+
+.portfolio_card:nth-child(odd) a {
+  margin-right: 16px;
+  float: left;
+}
+
+.portfolio_card:nth-child(even) a {
+  margin-left: 16px;
+  float: right;
+}
+
+.portfolio_card h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.portfolio_card img {
+  height: 160px;
+  width: 160px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {}
 
 @media (max-width: 480px) {
 
+  .button {
+    top: 20%;
+  }
+
+  .header {
+    margin-bottom: 20%;
+  }
+
+  .sobre_mim_texto {
+    margin: 0;
+  }
 }
