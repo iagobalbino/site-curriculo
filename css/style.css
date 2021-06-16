@@ -83,10 +83,13 @@ body, html {
   background: #0A0140;
   color: #fff;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+}
+
+.midias_sociais_footer a {
+  margin-left: 10px;
 }
 
 .midias_sociais_footer svg {
@@ -102,7 +105,7 @@ body, html {
 .sobre_mim_texto {
   float: left;
   text-align: left;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   margin-left: 10%;
 }
 
@@ -161,17 +164,32 @@ body, html {
 }
 
 .portfolio_p {
-  margin-left: 10%;
+  margin: 0 0 5% 10%;
 }
 
 .portfolio_card {
   width: 460px;
   height: 220px;
   display: inline-block;
-  /* margin: 40px auto 50px ; */
+  margin-right: 20px;
 }
 
-.portfolio_card:nth-child(odd) a {
+.line {
+  width: 100%;
+  text-align: center;
+}
+
+.line:nth-child(odd) a {
+  margin-right: 16px;
+  float: left;
+}
+
+.line:nth-child(even) a {
+  margin-left: 16px;
+  float: right;
+}
+
+/* .portfolio_card:nth-child(odd) a {
   margin-right: 16px;
   float: left;
 }
@@ -179,7 +197,7 @@ body, html {
 .portfolio_card:nth-child(even) a {
   margin-left: 16px;
   float: right;
-}
+} */
 
 .portfolio_card h3 {
   font-weight: bold;
