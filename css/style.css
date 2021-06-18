@@ -237,7 +237,13 @@ body, html {
 
   .portfolio_card {
     display: block;
+    margin: 0 0 5% 10%;
   }
+
+  .footer {
+    margin-top: 10%;
+  }
+
 }
 
 @media (max-width: 480px) {
