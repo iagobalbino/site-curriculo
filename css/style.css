@@ -105,7 +105,6 @@ body, html {
 .sobre_mim_texto {
   float: left;
   text-align: left;
-  /* padding: 0 20px; */
   margin-left: 10%;
 }
 
@@ -167,6 +166,11 @@ body, html {
   margin: 0 0 5% 10%;
 }
 
+.line {
+  width: 100%;
+  text-align: center;
+}
+
 .portfolio_card {
   width: 460px;
   height: 220px;
@@ -174,30 +178,23 @@ body, html {
   margin-right: 20px;
 }
 
-.line {
-  width: 100%;
-  text-align: center;
-}
-
 .line:nth-child(odd) a {
   margin-right: 16px;
   float: left;
+}
+
+.line:nth-child(odd) p, .line:nth-child(odd) h3 {
+  text-align: left;
+}
+
+.line:nth-child(even) p, .line:nth-child(even) h3 {
+  text-align: right;
 }
 
 .line:nth-child(even) a {
   margin-left: 16px;
   float: right;
 }
-
-/* .portfolio_card:nth-child(odd) a {
-  margin-right: 16px;
-  float: left;
-}
-
-.portfolio_card:nth-child(even) a {
-  margin-left: 16px;
-  float: right;
-} */
 
 .portfolio_card h3 {
   font-weight: bold;
@@ -211,7 +208,37 @@ body, html {
 
 /* Media Queries */
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+
+  .sobre_mim_texto, .perfil {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .sobre_mim_texto {
+    text-align: center;
+    margin-bottom: 10%;
+    height: 35%;
+  }
+
+  .perfil {
+    height: 45%;
+    margin-top: 5%;
+  }
+
+  .imagem_perfil {
+    height: 240px;
+    width: 240px;
+  }
+
+  .portfolio h2 {
+    margin-top: 5%;
+  }
+
+  .portfolio_card {
+    display: block;
+  }
+}
 
 @media (max-width: 480px) {
 
