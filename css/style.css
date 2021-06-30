@@ -47,7 +47,7 @@ body, html {
 .header {
   height: 40px;
   width: 100%;
-  padding: 0 20px 0 20px;
+  padding: 0 10%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -71,7 +71,10 @@ body, html {
 
 .menu li {
   display: inline-block;
-  padding-left: 10px;
+}
+
+.menu a {
+  padding: 10px;
 }
 
 .menu li a, .logo{
@@ -159,21 +162,39 @@ body, html {
 }
 
 .portfolio {
-  /* height: 100vh; */
   width: 100%;
 }
 
 .portfolio h2 {
+  margin: 5% 0 0 10%;
   font-size: 1.28rem;
   font-weight: bold;
-  margin-left: 10%;
 }
 
 .portfolio_p {
   margin: 0 0 5% 10%;
 }
 
-.line {
+.portfolio_card {
+  width: 220px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  text-align: center;
+}
+
+.portfolio_card img {
+  height: 220px;
+  width: 220px;
+}
+
+.portfolio_card h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+
+/* .line {
   width: 100%;
   text-align: center;
 }
@@ -211,7 +232,7 @@ body, html {
 .portfolio_card img {
   height: 160px;
   width: 160px;
-}
+} */
 
 /* Media Queries */
 
