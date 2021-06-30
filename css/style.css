@@ -196,6 +196,10 @@ body, html {
   text-align: center;
 }
 
+.portfolio_card:hover {
+  box-shadow: 0 8px 24px 0 rgba(0,0,0,0.4);
+}
+
 .portfolio_card img {
   height: 220px;
   width: 220px;
@@ -218,6 +222,36 @@ body, html {
   body {
     font-size: 14px;
   }
+  
+  /* Menu hamburguer */
+
+  .one,
+  .two,
+  .three {
+    background-color: #fff;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  /* Fullscreen */
+  .menu-section.on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0A0140;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+  }
+
+  /* Parei no víde em 49:00 */
 
   .hero-page p {
     font-size: 1.71rem;
