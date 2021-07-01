@@ -232,6 +232,11 @@ body, html {
     height: 5px;
     width: 100%;
     margin: 6px auto;
+    transition-duration: 0.3s;
+  }
+
+  .menu a {
+    padding: 0;
   }
 
   .menu-toggle {
@@ -249,9 +254,50 @@ body, html {
     width: 100vw;
     height: 100vh;
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  /* Parei no víde em 49:00 */
+  .menu-section.on ul {
+    display: block;
+  }
+  .menu-section.on ul li {
+    text-align: center;
+    display: block;
+  }
+
+  .menu-section.on ul li a {
+    transition-duration: 0.5s;
+    font-size: 3rem;
+    line-height: 4rem;
+    display: block;
+  }
+
+  .menu-section.on ul li a:hover {
+    color: #0A0140;
+    background-color: #fff;
+    opacity: 100%;
+  }
+
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 0;
+    top: 15px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(9px, -9px);
+  }
+
 
   .hero-page p {
     font-size: 1.71rem;
