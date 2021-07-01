@@ -1,8 +1,11 @@
-const btnMobile = document.getElementsByClassName('btn_mobile');
+let show = true;
 
-function toggleMenu() {
-  const nav = document.getElementsByClassName('nav');
-  nav.classList.toggle('active');
-}
+const menuSection = document.querySelector('.menu-section');
+const menuToggle = document.querySelector('.menu-toggle');
 
-btnMobile.addEventListener('click', toggleMenu);
+menuToggle.addEventListener('click', () => {
+  document.body.style.overflow = show ? 'hidden' : 'initial';
+
+  menuSection.classList.toggle('on', show);
+  show = !show;
+});

@@ -83,11 +83,6 @@ body, html {
   font-weight: bold;
 }
 
-/* Estilos opcionais */
-.menu a:hover {
-  background: rgba(0, 0, 0, 0.5);
-}
-
 .footer {
   height: 120px;
   width: 100%;
@@ -280,9 +275,10 @@ body, html {
     opacity: 100%;
   }
 
+
   .menu-section.on .menu-toggle {
     position: absolute;
-    right: 0;
+    right: 100px;
     top: 15px;
   }
 
