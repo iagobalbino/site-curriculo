@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+			"sync.gist": "f087a3e093f2085e44a0455a36b4e218",
+			"workbench.iconTheme": "material-icon-theme",
+			"editor.minimap.enabled": false,
+			"explorer.confirmDelete": false,
+			"emmet.syntaxProfiles": {
+				"javascript": "jsx"
+			},
+			"emmet.includeLanguages": {
+				"javascript": "javascriptreact",
+			},
+			"workbench.colorTheme": "Monokai",
+			"editor.fontSize": 14,
+			"editor.lineHeight": 25,
+			"editor.tabSize": 2,
+			"editor.tabCompletion": "on",
+			"editor.wordWrap": "on",
+			"workbench.startupEditor": "newUntitledFile",
+			"liveServer.settings.donotShowInfoMsg": true,
+			"liveServer.settings.donotVerifyTags": true,
+			"editor.formatOnSave": true,
+			"html.autoClosingTags": false,
+			"editor.autoClosingBrackets": "always",
+			"editor.autoClosingQuotes": "always",
+			"editor.minimap.renderCharacters": false,
+			"breadcrumbs.enabled": false,
+			"telemetry.enableCrashReporter": false,
+			"telemetry.enableTelemetry": false,
+			"prettier.trailingComma": "all",
+			"html.format.wrapAttributes": "auto",
+			"html.format.wrapLineLength": 0,
+			"[html]": {
+				"editor.defaultFormatter": "vscode.html-language-features"
+			},
+			"gitlens.views.repositories.files.layout": "tree",
+			"extensions.ignoreRecommendations": false,
+			"editor.renderWhitespace": "none",
+			"security.workspace.trust.untrustedFiles": "open"
+	}
+}
